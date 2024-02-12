@@ -1,0 +1,89 @@
+/* header section start */
+.header {
+    min-height: 100px;
+    width: 100%;
+    background-color: #3b5d50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.header .navbar-nav .nav-item {
+    padding: 0px 15px;
+    position: relative;
+}
+
+
+
+.header a.nav-link {
+    color: rgba(255, 255, 255, .5);
+    position: relative;
+    transition: all .5;
+}
+.header a.nav-link:hover::after {
+    content:"";
+   
+    background-color:rgb(187, 176, 26);
+    height: 7px;
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:40px;
+   
+
+}
+
+/* header section end */
+/*-------------------footer section start----------*/
+footer {
+    padding: 50px;
+}
+
+.copy-right {
+    border-top: 2px solid #3b5d50;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #3b5d50;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+.footer-list li {
+    margin: 0px 0px 15px 0px;
+}
+
+.footer-list .social-icon a {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #3b5d50;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #bcc8c4;
+}
+
+.footer-list .social-icon a:hover {
+    color: #fff;
+    background-color: #3b5d50;
+}
+
+.footer-list li a:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+/*-------------------footer section end----------*/
